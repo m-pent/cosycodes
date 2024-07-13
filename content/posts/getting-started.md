@@ -1,6 +1,7 @@
 +++
 title = 'Getting Started'
 date = 2024-06-23T15:13:53+01:00
+author = 'cosycodes'
 draft = true
 +++
 
@@ -8,7 +9,7 @@ draft = true
 
 Welcome to Cosy Codes, I'm Megan, owner of this blog. I created Cosy Codes as a way for me to practice my engineering skills, learn a few new things, and share that knowledge with others in a way that is approachable and fun. 
 
-![Selfie of a woman with long, dark hair, dark green thick-rimmed glasses and a silver septum ring. She is wearing a black tshirt.](relative link)
+![Selfie of a woman with long, dark hair, dark green thick-rimmed glasses and a silver septum ring. She is wearing a black tshirt.](/images/selfie.jpg)
 
 I'll share a bit more of my own journey later on, but for now let's get started with how you can also start building your own blog using [Hugo]. Hugo is an open-source framework for building fast and flexible static websites.  
 
@@ -46,13 +47,13 @@ While the tutorial docs utilise `Ananka`, I knew I wanted to use [`risotto`][ris
 
 > Before choosing how to install the theme, I also read a bit about the difference between running the theme as a [submodule] and as the maker of risotto recommends installing it directly vs as a submodule, due to “the difficulty of tracking a specific release” I downloaded it directly from [GitHub][risotto github] as a `.zip file` (Code > Local > Download ZIP) and extracted the files to my themes directory within my local project. (ex. `C:\Users\[username]\cosycodes\themes`) and then followed the instructions to update my `hugo.toml` configuration file to utilise the new theme. 
 
-**Note:** I found I had to initially copy entire [example site config][example config] into my project's `hugo.toml` to get risotto to build without errors. I also think the first time by leaving `risotto-main` (the default name of the extracted folder) in place, instead of changing it to `risotto`, it created errors. 
+**Note:** I found I had to initially copy entire [example site config][example config] into my project's `hugo.toml` to get risotto to build without errors. I also think the first time by leaving `risotto-main` (the default name of the extracted folder) in place as a themes subdirectory, instead of changing it to `risotto`, created the errors vs the config file itself. 
 
 I made a few minor amendments to my `hugo.toml` file to add a bit of my own information and remove some of the unnecessary bits such as some of the `params.socialLinks` I’m not ready to fully utilise yet. Then made sure to save any files I amended in VS Studio before running the `hugo server` command from within my terminal session. 
 
 I tested it and YAY, it mostly looks good except why is there `$ echo $ LANG` near the bottom of my page. We’ll find out next time. 
 
-![screenshot of initial Cosy Codes website](relative link)
+![screenshot of initial Cosy Codes website](/images/firstpushpreview.png)
 
 
 [Hugo]: https://gohugo.io/
