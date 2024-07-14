@@ -2,7 +2,7 @@
 title = 'Getting Started'
 date = 2024-06-23T15:13:53+01:00
 author = 'cosycodes'
-draft = true
+draft = false
 +++
 
 # Introduction
