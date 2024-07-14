@@ -9,7 +9,7 @@ draft = false
 
 Welcome to Cosy Codes, I'm Megan, owner of this blog. I created Cosy Codes as a way for me to practice my engineering skills, learn a few new things, and share that knowledge with others in a way that is approachable and fun. 
 
-![Selfie of a woman with long, dark hair, dark green thick-rimmed glasses and a silver septum ring. She is wearing a black tshirt.](/images/selfie.jpg)
+![Selfie of a woman with long, dark hair, dark green thick-rimmed glasses and a silver septum ring. She is wearing a black tshirt.](images/selfie.jpg)
 
 I'll share a bit more of my own journey later on, but for now let's get started with how you can also start building your own blog using [Hugo]. Hugo is an open-source framework for building fast and flexible static websites.  
 
@@ -53,7 +53,7 @@ I made a few minor amendments to my `hugo.toml` file to add a bit of my own info
 
 I tested it and YAY, it mostly looks good except why is there `$ echo $ LANG` near the bottom of my page. We’ll find out next time. 
 
-![screenshot of initial Cosy Codes website](/images/firstpushpreview.png)
+![screenshot of initial Cosy Codes website](images/firstpushpreview.png)
 
 
 [Hugo]: https://gohugo.io/
