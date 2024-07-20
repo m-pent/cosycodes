@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://m-pent.github.io/cosycodes/'
 theme = 'risotto'
 languageCode = 'en'
 title = 'Cosy Codes'
